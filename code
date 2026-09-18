@@ -5,20 +5,14 @@ cost = float(input("How much was it? "))
 service_charge = int(input("Was there a tip or a service charge? Enter a whole number (e.g. 20 for 20%): ").strip("%"))
 group_size = int(input("How many people were in your group? "))
 
-# Challenge: Calculate the Split
-#
-# 1. Calculate service_charge_total. The user enters a whole number percentage,
-#    so you'll need to convert it to a decimal and multiply it by cost to get the dollar amount.
-#    Save the result to service_charge_total. Check the hints.md file if you're unsure about the math!
+
 
 service_charge_total = float(cost*service_charge/100)
-#
-# 2. Add cost and service_charge_total to get the grand total.
-#    Save it to grand_total.
+
 
 grand_total = (cost+ service_charge_total)
 
-# 3. Divide grand_total by group_size to get total_per_person.
+
 
 total_per_person = (grand_total/group_size)
 
