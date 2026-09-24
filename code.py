@@ -1,3 +1,5 @@
+def main():
+
 print("Welcome to PayUp!")
 
 event = input("What was the event or occasion? ")
@@ -26,3 +28,6 @@ print(f"Group size: {group_size}")
 print(f"Grand total: ${grand_total:.2f}")
 print()
 print(f"Each person must PayUp: ${total_per_person:.2f}")
+
+if __name__ == "__main__":
+    main()
