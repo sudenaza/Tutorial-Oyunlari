@@ -1,5 +1,3 @@
-def main():
-
 import random
 
 word_bank = [
